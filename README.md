@@ -24,3 +24,19 @@ Create React apps with no build configuration.
          npm start
          
 If you've previously installed create-react-app globally via npm install -g create-react-app, we recommend you uninstall the package using npm uninstall -g create-react-app or yarn global remove create-react-app to ensure that npx always uses the latest version.
+# Backend
+Step1: Enter the backend directory and create and activate your environment:
+
+       For mac/unix users:
+
+       create: python3 -m venv env
+
+       activate: source env/bin/activate
+
+       For windows users:
+
+       create: py -m venv env
+
+       activate: .\env\Scripts\activate
+
+       Step2: Then install the requirements using: pip install -r requirements.txt
