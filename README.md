@@ -40,3 +40,17 @@ Step1: Enter the backend directory and create and activate your environment:
        activate: .\env\Scripts\activate
 
        Step2: Then install the requirements using: pip install -r requirements.txt
+   # Smart Contracts 
+   
+The Document Store repository contains both the smart contract code for document store (in /contracts) as well as the node package for using this library (in /src).
+Installation
+
+          npm i @govtechsg/document-store
+          
+# Usage
+
+To use the package, you will need to provide your own Web3 provider or signer (if you are writing to the blockchain).
+Deploy new document store
+
+         const documentStore = await deployAndWait("My Document Store", signer).then(console.log);
+  
