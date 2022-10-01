@@ -11,3 +11,16 @@ This is a fast way to create and configure an Algorand development environment w
 Docker Compose MUST be installed. Instructions.
 
 On a Windows machine, Docker Desktop comes with the necessary tools. Please see the Windows section in getting started for more details.
+# Create React App
+Create React apps with no build configuration.
+
+      Creating an App – How to create a new app.
+      User Guide – How to develop apps bootstrapped with Create React App.
+
+- Create React App works on macOS, Windows, and Linux.
+# Quick Overview
+         npx create-react-app my-app
+         cd my-app
+         npm start
+         
+If you've previously installed create-react-app globally via npm install -g create-react-app, we recommend you uninstall the package using npm uninstall -g create-react-app or yarn global remove create-react-app to ensure that npx always uses the latest version.
