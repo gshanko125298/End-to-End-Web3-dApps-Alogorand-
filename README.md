@@ -70,13 +70,18 @@ Deploy new document store
             - type: bind
               source: <path to this project folder>
               target: /data
-5. Start the Sandbox docker container with the command: ./sandbox up -v
-Other useful Sandbox commands (after starting it):
-Shut down the Sandbox: ./sandbox down
-Get a list of test wallets/accounts: ./sandbox goal account list
-Check the balance of an account (app account or wallet): ./sandbox goal balance --address <account-address>
-Reset Sandbox (including the test accounts): ./sandbox reset
-Setup your Project
+5. Start the Sandbox docker container with the command: 
+               ./sandbox up -v
+              Other useful Sandbox commands (after starting it):
+              Shut down the Sandbox: 
+               ./sandbox down
+              Get a list of test wallets/accounts: 
+               ./sandbox goal account list
+              Check the balance of an account (app account or wallet):
+               ./sandbox goal balance --address <account-address>
+              Reset Sandbox (including the test accounts):
+               ./sandbox reset
+6. Setup your Project
 Goto project folder & setup Python virtual env for the project (one time only): python3 -m venv venv
                  Activate the Python virtual environment (everytime you start this project):
                  $ ./venv/Scripts/activate # Windows
