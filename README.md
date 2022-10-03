@@ -66,7 +66,7 @@ Deploy new document store
 3. Start Docker Desktop and goto the Sandbox folder
 4. Add your project folder as bind volume in the Sandbox Docker image:
     In the Sandbox root folder, edit the file docker-compose.yml and add the following lines under the key services.algod:
-    volumes:
+   # volumes:
             - type: bind
               source: <path to this project folder>
               target: /data
